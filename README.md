@@ -13,4 +13,10 @@
 - Change the file to an executable script by running `chmod +x zsh-installer.sh`
 - Now run the file as follows`./zsh-installer.sh` to install zsh and configure it to look as below.
 
-![oh-my-zsh with agnoster theme](agnoster.png)
+
+![oh-my-zsh with agnoster theme](images/home.png)
+
+***
+### Using Zsh inside a git repository directory :rocket:
+
+![oh-my-zsh with agnoster theme](images/git-zsh.png)
