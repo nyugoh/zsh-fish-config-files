@@ -1,15 +1,15 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH:/home/joe/.yarn/bin:/sbin:/usr/bin:/home/joe/.config/yarn/global/node_modules/.bin/:/usr/local/go/bin:/usr/local/bin/Postman
-export ripos=/media/joe/Jarvis/Ripos
-export jarvis=/media/joe/Jarvis
-export GOPATH="$ripos/Go"
-export GOBIN="$GOPATH/bin"
-export ANDROID_HOME=/media/joe/Jarvis/SDKs
+export ripos=/media/joe/6342c8c9-76fd-4c98-b128-47e535f79e2b/Repos
+export jarvis=/media/joe/6342c8c9-76fd-4c98-b128-47e535f79e2b
+#export GOPATH="$ripos/Go"
+#export GOBIN="$GOPATH/bin"
+export ANDROID_HOME=media/joe/6342c8c9-76fd-4c98-b128-47e535f79e2b/SDKs
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/joe/.oh-my-zsh
+export ZSH=/home/joe/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -20,7 +20,7 @@ ZSH_THEME="agnoster"
 # -------------------------------------------------------------------
 # Git aliases
 # -------------------------------------------------------------------
- 
+
 alias ga='git add -A'
 alias gp='git push'
 alias gl='git log'
@@ -36,7 +36,7 @@ alias gpu='git pull'
 alias gcl='git clone'
 alias gta='git tag -a -m'
 alias gf='git reflog'
- 
+
 # leverage an alias from the ~/.gitconfig
 alias gh='git hist'
 alias glg1='git lg1'
@@ -97,14 +97,14 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # tabtab source for electron-forge package
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
-[[ -f /home/joe/Ripos/hr-frontend/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/joe/Ripos/hr-frontend/node_modules/tabtab/.completions/electron-forge.zsh
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# [[ -f /home/joe/Ripos/hr-frontend/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/joe/Ripos/hr-frontend/node_modules/tabtab/.completions/electron-forge.zsh
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source $HOME/.antigen.zsh
-    
+
 # Load the oh-my-zsh's library
 antigen use oh-my-zsh
 
@@ -129,4 +129,4 @@ antigen theme agnoster
 antigen apply
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+#export PATH="$PATH:$HOME/.rvm/bin"
